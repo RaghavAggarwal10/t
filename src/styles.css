@@ -1,0 +1,126 @@
+.contact-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d40000;
+  }
+  
+  .logo span {
+    color: #333;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+  
+  .track-btn,
+  .login-btn {
+    background-color: #d40000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .features li {
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-form form input,
+  .contact-form form textarea,
+  .contact-form form select {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #d40000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Trusted Partners Section */
+  .partners-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .partners-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .partners-section p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Spacing between logos */
+  }
+  
+  .partner-logos img {
+    max-width: 150px; /* Restrict image width */
+    height: auto;
+    object-fit: contain;
+  }
+  
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  
